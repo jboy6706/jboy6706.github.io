@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <title>Document</title>
+</head>
+<body>
+    <header class="d-flex flex-column">
+        <div class="container-fluid bg-secondary-subtle">
+            <div class="container-xxl d-flex justify-content-between">
+                <div id="logo">
+                    <a href="#">
+                        <img src="images/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="header__contacts justify-content-end d-none d-md-flex align-items-center " id="contacts" style="float: right">
+                    <p>
+                        <i class="bi bi-phone"></i> +7-944-650-1720 | 
+                        <i class="bi bi-envelope-fill"></i> info@business.ru 
+                        <i class="bi bi-facebook" style="color: blue; margin-left: 5px;"></i>
+                    </p>
+                </div>
+                <button class="btn btn-secondary header-menu" type="button" data-bs-toggle="collapse" data-bs-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+                    <i style="font-size: 30px;" class="bi bi-list"></i>
+                </button>
+            </div>
+        </div>
+        <div class="container-xxl collapse show" id="collapse1">
+            <div class="d-flex flex-md-row flex-column justify-content-between align-items-center pb-2">
+                <nav class="header__nav">
+                    <ul class="header__nav__ul nav navbar justify-content-start">
+                        <li class="border border-2 border-success nav-item"><a class="nav-link text-success" href="#">Главная</a></li>
+                        <li class="border border-2 border-success nav-item"><a class="nav-link text-success" href="#">О компании</a></li>
+                        <li class="border border-2 border-success nav-item"><a class="nav-link text-success" href="#">Наши методы</a></li>
+                        <li class="border border-2 border-success nav-item"><a class="nav-link text-success" href="#">Наши проекты</a></li>
+                    </ul>
+                </nav>
+                <ul class="header__nav__ul header__nav__ul__right nav nav-bar">
+                    <li class="border border-2 border-success nav-item"><a class="nav-link text-success" href="#">Заказать консультацию</a></li>
+                </ul>
+                </div>
+        </div>
+    </header>
+    <section class="banner">
+        <div class="container-xxl banner__container align-items-center justify-content-center d-flex">
+            <div class="text-center container-1000">
+                <h1 class="text-white text-center">Мы предлагаем вам уникальную поездку в горы на живую природу</h1>
+                <a class="btn btn-lg btn-light border-2 mt-4 ps-5 pe-5" href="#">Заказать поездку</a>
+            </div>
+        </div>
+    </section>
+    <section class="locations">
+        <div class="container-xxl mt-5">
+            <h2 class="text-center">Места, куда можно отправиться</h2>
+            <div class="row">
+                <div class="col-12 col-sm-6  col-md-4 d-flex">
+                    <div class="card mt-3">
+                        <img src="images/card-img-1.png" class="card-img-top" alt="Луг" style="width: 100%">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Зелёные луга</h3>
+                            <p class="card-text">Прекрасное и замечательное место, где свежий тёплый ветерок, приятная зелёная трава и всегда светит солнышко. 
+                                Открываются хорошие виды и очень много места для приятного отдыха</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4  d-flex">
+                    <div class="card mt-3">
+                        <img src="images/card-img-2.png" class="card-img-top" alt="Луг" style="width: 100%">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Зелёные леса</h3>
+                            <p class="card-text">Лес это замечательное место. Очень много растений и уютная атмосфера, всё что нужно, 
+                                для хорошего пикника и идеального отдыха</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-flex">
+                    <div class="card mt-3">
+                        <img src="images/card-img-3.png" class="card-img-top" alt="Луг" style="width: 100%">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Могучие горы</h3>
+                            <p class="card-text">Величественные высокие горы отлично подойдут вам, если вы любитель грандиозных видов и экстрима. 
+                                Только здесь вы способны получить впечатления и адреналин по максимуму
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-flex">
+                    <div class="card mt-3">
+                        <img src="images/card-img-4.png" class="card-img-top" alt="Луг" style="width: 100%">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Тихое озеро</h3>
+                            <p class="card-text">Для настоящих любителей охладиться в жаркую погоду и пополаскать ножки. Но нужно быть осторожнее,</p>
+                            здесь слишком много рыбы, которая может в вас врезаться и помешать плаванию.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-flex">
+                    <div class="card mt-3">
+                        <img src="images/card-img-5.png" class="card-img-top" alt="Луг" style="width: 100%">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Громкие водопады</h3>
+                            <p class="card-text">Несколько тонн воды несутся на огромной скорости и падают со скалы, грозно разбиваясь о камни.
+                                Восхитительные виды, прекрасные звуки и невероятная атмосфера от нескольких водопадов, находящихся здесь.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 d-flex">
+                    <div class="card mt-3">
+                        <img src="images/card-img-6.png" class="card-img-top" alt="Луг" style="width: 100%">
+                        <div class="card-body">
+                            <h3 class="card-title fs-5">Красная скала</h3>
+                            <p class="card-text">Если вы всё перепробовали, но вам не хватает экстрима, вы можете попробовать отправиться на красную скалу.
+                                Это самое ужасное и опасное место на нашей планете, опасные и вредные красные породы камня, взбираться на эту скалу крайне сложно,
+                                а удержаться на ней просто опасно и невозможно. Когда-то эта скала была вулканом.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="transport">
+        <div class="container-xxl mt-5">
+            <h2 class="text-center">Транспорт, доступный для путешествия</h2>
+            <div class="row">
+                <div class="card d-flex flex-md-row flex-column mt-3 ps-0">
+                    <div class="card-picture" style="background-image: url(images/card-img-2-1.png)"></div>
+                    <div class="card-body p-4">
+                        <h3 class="card-title">Автобус</h3>
+                        <p class="card-text">Вы можете заказать у нас автобус на группу из нескольких человек для дальнего путешествия. Наш автобус способен вместить
+                            в себя группу из 30 туристов. Наши автобусы высшего качества, оборудованы по последнему слову техники, и в них очень приятно проводить отдых.
+                        </p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-md-row flex-column mt-3 ps-0">
+                    <div class="card-picture" style="background-image: url(images/card-img-2-2.png)"></div>
+                    <div class="card-body p-4">
+                        <h3 class="card-title">Самолёт</h3>
+                        <p class="card-text">При помощи самолёта можно добраться до места отдыха достаточно быстро. Прекрасные виды из окна, облака и земля с высоты
+                            птичьего полёта. Незабываемый опыт, всем рекомендуем попробовать.
+                        </p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-md-row flex-column mt-3 ps-0">
+                    <div class="card-picture" style="background-image: url(images/card-img-2-3.png)"></div>
+                    <div class="card-body p-4">
+                        <h3 class="card-title">Вертолёт</h3>
+                        <p class="card-text">На вертолёте вас ждёт незабываемый полёт по очень интересным местам. Вертолёт это уникальный транспорт, при помощи которого
+                            можно аккуратно и медленно облететь все интересные места. 
+                        </p>
+                    </div>
+                </div>
+                <div class="card d-flex flex-md-row flex-column mt-3 ps-0">
+                    <div class="card-picture" style="background-image: url(images/card-img-2-4.png)"></div>
+                    <div class="card-body p-4">
+                        <h3 class="card-title">Корабль</h3>
+                        <p class="card-text">При помощи корабля вы можете отправиться в удивительное путешествие по воде. Бесконечные бескрайние морские просторы,
+                            синие волны, птицы и яркое солнце, то что нужно для атмосферы и незабываемых ощущений.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="banner2">
+        <div class="container-xxl banner__container2 align-items-center justify-content-center d-flex mt-5 border border-2 border-dark">
+            <div class="text-center container-1000">
+                <h1 class="text text-center">Попробуйте поездку и отдых на живой природе</h1>
+                <a class="btn btn-lg btn-dark border-2 mt-4 ps-5 pe-5" href="#">Заказать поездку</a>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark mt-5 pt-3 pb-3 text-white">
+        <div class="container-xxl">
+            <div style="text-align:right;">
+                © Company.html <br>2010-2026
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>
